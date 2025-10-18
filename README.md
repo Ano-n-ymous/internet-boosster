@@ -8,7 +8,7 @@
 
 ## 🎯 One Command Boost
 
-     irm https://raw.githubusercontent.com/Ano-n-ymous/internet-booster/main/booster.ps1 | iex
+     irm https://raw.githubusercontent.com/Ano-n-ymous/internet-booster/main/internet-booster.ps1 | iex
 
    ## ✨ Instant Results
 
