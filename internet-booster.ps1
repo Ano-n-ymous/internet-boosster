@@ -12,7 +12,7 @@ if (-not $isAdmin) {
     Write-Host "Please run PowerShell as Administrator and execute the command again" -ForegroundColor Yellow
     
     # Simple restart as admin
-    $currentCommand = "irm https://raw.githubusercontent.com/Ano-n-ymous/internet-booster/main/booster.ps1 | iex"
+    $currentCommand = "irm https://raw.githubusercontent.com/Ano-n-ymous/internet-booster/main/internet-booster.ps1 | iex"
     Start-Process PowerShell -ArgumentList "-Command", $currentCommand -Verb RunAs
     exit
 }
